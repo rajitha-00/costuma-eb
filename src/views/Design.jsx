@@ -2,9 +2,9 @@ import React from 'react'
 
 const Design = () => {
   return (
-    <div>
-      
-    </div>
+    <>
+      <section id="design"></section>
+    </>
   )
 }
 

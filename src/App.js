@@ -8,17 +8,19 @@ import Design from './views/Design';
 import Marketplace from './views/Marketplace';
 import Releses from './views/Releses';
 import About from './views/About';
-import News from './views/News';
+import Landing from './views/Landing';
+import WhatsNew from './views/WhatsNew';
 
 function App() {
   return (
     <>
       <Navbar/>
       <Routes>
-        <Route path='/' element = {<Home/>}/>
+        <Route path='/' element = {<Landing/>}/>
         <Route path='/login' element = {<Login/>}/>
+        <Route path='/home' element = {<Landing/>}/>
         <Route path='/register' element = {<Register/>}/>
-        <Route path='/news' element = {<News/>}/>
+        <Route path='/new' element = {<WhatsNew/>}/>
         <Route path='/design' element = {<Design/>}/>
         <Route path='/market' element = {<Marketplace/>}/>
         <Route path='/releases' element = {<Releses/>}/>
