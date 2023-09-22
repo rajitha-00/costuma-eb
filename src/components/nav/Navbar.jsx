@@ -15,15 +15,15 @@ const Navbar = () => {
       { name: 'Design', href: '#design' },
       { name: 'What\'s new', href: '#new' },
       { name: 'Marketplace', href: '#market' },
-      { name: 'Releases', href: '#releases' },
       { name: 'About Us', href: '#about' },
+      { name: 'Releases', href: '#releases' },
     ] : [
       { name: 'Home', href: '/' },
       { name: 'Design', href: '/design' },
       { name: 'What\'s new', href: '/new' },
       { name: 'Marketplace', href: '/market' },
-      { name: 'Releases', href: '/releases' },
       { name: 'About Us', href: '/about' },
+      { name: 'Releases', href: '/releases' },
     ];
     
   return (
