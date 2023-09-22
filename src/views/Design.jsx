@@ -16,7 +16,7 @@ const Design = () => {
           </div>
           <div className="textContainer">
             <h3 className='text-md font-semibold'>Design Process</h3>
-            <h1 className='text-3xl text-[#614AD3] font-bold mt-4'>
+            <h1 className='md:text-6xl text-[#614AD3] font-bold mt-4'>
                 Easy than you think,
                 <br />
                 Use your prompt.
