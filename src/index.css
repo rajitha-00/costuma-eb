@@ -1,3 +1,6 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;/*# sourceMappingURL=index.css.map */
+@tailwind utilities;
+section {
+  min-height: 100vh;
+}/*# sourceMappingURL=index.css.map */
