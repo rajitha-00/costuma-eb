@@ -5,7 +5,7 @@ const Marketplace = () => {
   return (
     <>
       <div className="absolute h-[80%]  z-0 right-0 ">
-          <img src={Bg} className='w-full ' alt="" />
+          <img src={Bg} className='w-full z-0 ' alt="" />
       </div>
       <section id='market' className='mt-36'>
         <h1 className='text-center md:text-8xl font-bold '>
@@ -19,7 +19,7 @@ const Marketplace = () => {
                 <br />
                 by Our Community
             </h1>
-            <ul cl>
+            <ul className='mt-10'>
               <li>
                 <h2 className='text-black text-xl mt-5'>Shop for Unique and Customizable Costumes.</h2>
               </li>

@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 section {
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 .DownloadContainer {
+  background: linear-gradient(90deg, #FFEDE4 0%, rgba(211, 238, 255, 0.8) 100%);
+}
+
+.about {
   background: linear-gradient(90deg, #FFEDE4 0%, rgba(211, 238, 255, 0.8) 100%);
 }/*# sourceMappingURL=index.css.map */
