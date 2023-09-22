@@ -4,13 +4,14 @@ const About = () => {
   return (
     <>
       <section id="about" className='about p-20'>
-        <div className="flex justify-center items-center  mx-auto lg:w-[90%]">
+        <h3 className='text-md font-semibold text-center md:text-6xl'>Who we are</h3>
+        <div className="flex justify-center items-center mt-20 mx-auto lg:w-[90%]">
 
           <div className=" lg:w-1/2">
           <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
           </div>
           <div className="textContainer lg:w-1/2 z-50">
-            <h3 className='text-md font-semibold'>Who we are</h3>
+
             <h1 className='md:text-4xl text-[#614AD3] font-bold mt-4 z-50'>
             At Costuma, we're not just a brand; we're a creative revolution.
             We believe in the magic that happens when creativity meets technology,
