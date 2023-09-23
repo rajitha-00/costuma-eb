@@ -8,7 +8,7 @@ const About = () => {
         <div className="flex flex-wrap justify-center items-center mt-20 mx-auto lg:w-[90%]">
 
           <div className=" lg:w-1/2">
-          <ReactPlayer url='https://www.youtube.com/watch?v=LXb3EKWsInQ' />
+          <ReactPlayer url='https://www.youtube.com/watch?v=ltLNYA3lWAQ' />
           </div>
           <div className="textContainer lg:w-1/2 z-50">
 
