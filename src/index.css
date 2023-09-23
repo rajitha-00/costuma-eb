@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 section {
-  min-height: 50vh;
+  min-height: 100vh;
 }
 
 .DownloadContainer {
@@ -16,4 +16,8 @@ section {
 .vertical-line {
   border-left: 2px solid rgba(99, 71, 238, 0.824); /* This creates a vertical line */
   height: 160px; /* Adjust the height as needed */
+}
+
+.home {
+  background: linear-gradient(180deg, #FFEDE4 0%, rgba(211, 238, 255, 0.8) 100%);
 }/*# sourceMappingURL=index.css.map */

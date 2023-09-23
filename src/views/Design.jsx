@@ -6,7 +6,7 @@ const Design = () => {
   return (
     <>
       <section id="design" className=' mt-32'>
-        <div className="bgLeft absolute z-0 -top-20">
+        <div className="bgLeft absolute z-0 ">
           <img src={Bg} className='w-full left-0  ' alt="" />
         </div>
         <div className="flex flex-wrap justify-center items-center mx-auto">
