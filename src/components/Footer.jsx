@@ -10,7 +10,7 @@ export default function Footer() {
           <div className="flex flex-wrap text-center lg:text-left">
             <div className="w-full lg:w-6/12 px-4">
               <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
-              <h5 className="text-lg mt-0 mb-2 text-blueGray-600">
+              <h5 className="text-lg mt-0 mb-2 text-blueGray-600 mt-5">
                 Find us on any of these platforms, we respond 1-2 business days.
               </h5>
             </div>
@@ -23,7 +23,7 @@ export default function Footer() {
                   <ul className="list-unstyled">
                     <li>
                       <Link
-                      to="/aboutus"
+                      to="/about"
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
                       >
                       About Us
@@ -33,25 +33,9 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="#gfer"
-                      >
-                        Blog
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="#edrthrth"
+                        href="https://github.com/rajitha-00/costuma-web"
                       >
                         Github
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="#erg"
-                      >
-                        Free Products
                       </a>
                     </li>
                   </ul>
